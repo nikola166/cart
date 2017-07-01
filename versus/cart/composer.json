@@ -1,0 +1,28 @@
+{
+    "name": "versus/cart",
+    "description": "Корзина",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/nikola166/cart",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolay Solopov",
+            "email": "nikola19102@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "~5.0",
+        "symfony/http-foundation": "~2.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Versus\\Cart\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+    }
+}
